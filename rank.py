@@ -14,3 +14,13 @@ clicker game to go along with it where depending on your clicking you can gain
 in game money to buy more with. Will try to think of a way around macros that
 simulate many clicks per second.
 '''
+from mpl_toolkits.mplot3d import Axes3D
+from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt # plotting
+import numpy as np # linear algebra
+import os # accessing directory structure
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+
+for dirname, _, filenames in os.walk('/meme_data/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))

@@ -19,9 +19,9 @@ def round_wk(i):
 '''
 Initial Data processing
 '''
-r_obs = pd.read_csv('/kaggle/input/most-viewed-memes-templates-of-2018/reddit_observations.csv',index_col='reddit_obs_num')
-i_obs = pd.read_csv('/kaggle/input/most-viewed-memes-templates-of-2018/imgur_observations.csv',index_col='imgur_obs_num')
-posts = pd.read_csv('/kaggle/input/most-viewed-memes-templates-of-2018/reddit_posts.csv',index_col='meme_id')
+r_obs = pd.read_csv('C:/Users/bwblu/Documents/Projects/meme_data/input/imgur_observations.csv/reddit_observations.csv',index_col='reddit_obs_num')
+i_obs = pd.read_csv('C:/Users/bwblu/Documents/Projects/meme_data/input/imgur_observations.csv',index_col='imgur_obs_num')
+posts = pd.read_csv('C:/Users/bwblu/Documents/Projects/meme_data/input/imgur_observations.csv/reddit_posts.csv',index_col='meme_id')
 
 
 # Add reddit upvotes to imgur likes
